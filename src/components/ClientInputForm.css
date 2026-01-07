@@ -1,12 +1,13 @@
 .client-input-form {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 30, 46, 0.95);
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .client-input-form h2 {
-  color: #06b6d4;
+  color: #4fc3f7;
   margin-bottom: 25px;
   font-size: 1.8rem;
 }
@@ -18,7 +19,7 @@
 .form-group label {
   display: block;
   margin-bottom: 8px;
-  color: #333;
+  color: #e0e0e0;
   font-weight: 600;
   font-size: 1rem;
 }
@@ -26,26 +27,29 @@
 .form-group input {
   width: 100%;
   padding: 12px 15px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   font-size: 1rem;
+  background: rgba(45, 45, 68, 0.8);
+  color: #e0e0e0;
   transition: all 0.3s ease;
 }
 
 .form-group input:focus {
   outline: none;
-  border-color: #06b6d4;
-  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
+  border-color: #4fc3f7;
+  box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.2);
+  background: rgba(45, 45, 68, 1);
 }
 
 .clients-section {
   margin-top: 30px;
   padding-top: 30px;
-  border-top: 2px solid #e0e0e0;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .clients-section h3 {
-  color: #06b6d4;
+  color: #4fc3f7;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -58,23 +62,24 @@
 }
 
 .client-card {
-  background: #f8f9fa;
-  border: 2px solid #e0e0e0;
+  background: rgba(45, 45, 68, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px;
   transition: all 0.3s ease;
 }
 
 .client-card:hover {
-  border-color: #06b6d4;
-  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.15);
+  border-color: #4fc3f7;
+  box-shadow: 0 4px 12px rgba(79, 195, 247, 0.3);
+  background: rgba(45, 45, 68, 1);
 }
 
 .client-card h4 {
-  color: #333;
+  color: #e0e0e0;
   margin-bottom: 15px;
   font-size: 1.2rem;
-  border-bottom: 2px solid #667eea;
+  border-bottom: 2px solid #4fc3f7;
   padding-bottom: 8px;
 }
 
@@ -92,27 +97,30 @@
 
 .instance-input label {
   font-size: 0.9rem;
-  color: #666;
+  color: #b0b0b0;
   font-weight: 500;
 }
 
 .instance-input input {
   padding: 8px 12px;
-  border: 2px solid #d0d0d0;
+  border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
   font-size: 0.95rem;
+  background: rgba(30, 30, 46, 0.8);
+  color: #e0e0e0;
 }
 
 .instance-input input:focus {
-  border-color: #06b6d4;
-  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.1);
+  border-color: #4fc3f7;
+  box-shadow: 0 0 0 2px rgba(79, 195, 247, 0.2);
+  background: rgba(30, 30, 46, 1);
 }
 
 .submit-button {
   width: 100%;
   padding: 15px;
-  background: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
-  color: white;
+  background: linear-gradient(135deg, #4fc3f7 0%, #29b6f6 100%);
+  color: #0a1929;
   border: none;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -124,7 +132,8 @@
 
 .submit-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+  box-shadow: 0 6px 20px rgba(79, 195, 247, 0.5);
+  filter: brightness(1.1);
 }
 
 .submit-button:active {
@@ -135,9 +144,8 @@
   .clients-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .client-input-form {
     padding: 20px;
   }
 }
-
