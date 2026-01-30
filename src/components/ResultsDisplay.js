@@ -18,7 +18,7 @@ function ResultsDisplay({ results, numClients }) {
       <div className="results-grid">
         <div className="result-card fedavg-card">
           <div className="result-header">
-            <h3>Federated Average (FedAvg)</h3>
+            <h3>Trust Aware Federated Average (FedAvg)</h3>
             <div className="result-icon"></div>
           </div>
           <div className="result-content">
